@@ -1,0 +1,88 @@
+/* ===== Umumiy ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom, #c0dcff 0%, #ffffff 85%, #c0dcff 100%);
+  color: #1e293b;
+}
+
+/* ===== Sarlavha (DREAM TRAVEL) ===== */
+h1 {
+  margin: 10px 10px 0;
+  padding: 8px 0;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== Shior (kursiv ko'k matn) ===== */
+.subtitle {
+  margin: 35px 0 30px;
+  text-align: center;
+  font-style: italic;
+  font-size: 19px;
+  color: #2a4fd6;
+}
+
+/* ===== "Bizning manzillarimiz" ===== */
+h2 {
+  margin: 0 10px;
+  padding: 2px 0;
+  background-color: #66a8ff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+/* ===== Shahar nomlari ===== */
+h3 {
+  margin: 22px 10px 0;
+  padding: 4px 0;
+  background-color: rgba(190, 215, 250, 0.45);
+  color: #1e3a9e;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+/* ===== Shahar tavsifi ===== */
+p {
+  margin: 25px 10px 0;
+  font-size: 15px;
+  font-style: italic;
+  color: #333333;
+}
+
+/* ===== Pastki chaqiruv bloki ===== */
+.cta {
+  margin: 35px 10px 0;
+  padding: 2px 0;
+  background-color: #1e3a8a;
+  color: #ffeb00;
+  text-align: center;
+  font-size: 26px;
+  text-decoration: none;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cta-text {
+  margin: 0;
+  padding: 18px 10px 25px;
+  background-color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1e3a8a;
+}
